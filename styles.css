@@ -18,3 +18,27 @@ body {
 #nav1 img {
     margin-top: 5px;
 }
+#welcome {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+#above {
+    position: relative;
+    top: -4em;
+}
+#below {
+    position: relative;
+    top: -3em;
+    color:white;
+    font: bold;
+}
+
+#below p{
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.muted{
+    color: #9c9c9c;
+}
