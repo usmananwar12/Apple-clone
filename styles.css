@@ -42,3 +42,29 @@ body {
 .muted{
     color: #9c9c9c;
 }
+
+#slides {
+    background-color: rgb(41, 41, 41);
+    padding: 50px;
+    color: white;
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-track {
+    display: flex;
+    gap: 20px;
+    width: max-content; /* Ensures it takes up necessary space */
+}
+
+.scroll-image {
+    width: 80vw;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
