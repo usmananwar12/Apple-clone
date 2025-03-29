@@ -45,11 +45,11 @@ body {
 
 #slides {
     background-color: rgb(41, 41, 41);
-    padding: 50px;
+    padding: 70px;
     color: white;
     overflow-x: hidden;
     position: relative;
-    height: 100vh;
+    height: auto;
     /*display: flex;*/
     flex-direction: column;
     align-items: center;
@@ -76,8 +76,8 @@ body {
 .highlight-card {
     background-color: #1c2526;
     border-radius: 10px;
-    width: 80vw;
-    height: 50vh;
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,4 +133,16 @@ body {
 
 .carousel-dots .dot.active {
     background-color: #fff;
+}
+
+
+#take {
+    color: white;
+    padding: 70px;
+}
+
+#take h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: left;
 }
